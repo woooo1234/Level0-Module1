@@ -1,12 +1,11 @@
-from tkinter import *
-import tkinter as tk
+from tkinter import simpledialog, messageobx, Tk, Canvas
 
 windowWidth = 600
 windowHeight = 600
 
-root = tk.Tk()
+root = Tk()
 
-canvas = tk.Canvas(root, width=windowWidth, height=windowHeight, bg="#DDDDDD")
+canvas = Canvas(root, width=windowWidth, height=windowHeight, bg="#DDDDDD")
 canvas.grid()
 
 #1. Ask the user what color tomato they would like and save their response   
